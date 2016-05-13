@@ -1,0 +1,90 @@
+<?php
+// Heading
+$_['heading_title']                               = 'Excel orders export';
+
+// Text
+$_['text_export']                                 = 'Export';
+$_['text_download_excel']                         = 'Download excel';
+$_['text_order_id']                               = 'Order ID';
+$_['text_invoice_no']                             = 'Invoice No.';
+$_['text_invoice_prefix']                         = 'Invoice prefix';
+$_['text_store_id']                               = 'Store ID';
+$_['text_store_name']                             = 'Store name';
+$_['text_store_url']                              = 'Store URL';
+$_['text_customer_id']                            = 'Customer';
+$_['text_customer_group_id']                      = 'Customer group';
+$_['text_firstname']                              = 'Firstname';
+$_['text_lastname']                               = 'Lastname';
+$_['text_email']                                  = 'E-mail';
+$_['text_telephone']                              = 'Telephone';
+$_['text_fax']                                    = 'Fax';
+$_['text_shipping_firstname']                     = 'Shipping firstname';
+$_['text_shipping_lastname']                      = 'Shipping lastname';
+$_['text_shipping_company']                       = 'Shipping company';
+$_['text_shipping_address_1']                     = 'Shipping address 1';
+$_['text_shipping_address_2']                     = 'Shipping address 2';
+$_['text_shipping_city']                          = 'Shipping city';
+$_['text_shipping_postcode']                      = 'Shipping postcode';
+$_['text_shipping_country']                       = 'Shipping country';
+$_['text_shipping_country_id']                    = 'Shipping country ID';
+$_['text_shipping_zone']                          = 'Shipping zone';
+$_['text_shipping_zone_id']                       = 'Shipping zone ID';
+$_['text_shipping_address_format']                = 'Shipping address format';
+$_['text_shipping_method']                        = 'Shipping method';
+$_['text_payment_firstname']                      = 'Payment firstname';
+$_['text_payment_lastname']                       = 'Payment lastname';
+$_['text_payment_company']                        = 'Payment company';
+$_['text_payment_address_1']                      = 'Payment address 1';
+$_['text_payment_address_2']                      = 'Payment address 2';
+$_['text_payment_city']                           = 'Payment city';
+$_['text_payment_postcode']                       = 'Payment postcode';
+$_['text_payment_country']                        = 'Payment country';
+$_['text_payment_country_id']                     = 'Payment country ID';
+$_['text_payment_zone']                           = 'Payment zone';
+$_['text_payment_zone_id']                        = 'Payment zone ID';
+$_['text_payment_address_format']                 = 'Payment address format';
+$_['text_payment_method']                         = 'Payment method';
+$_['text_comment']                                = 'Comment';
+$_['text_total']                                  = 'Total';
+$_['text_reward']                                 = 'Reward';
+$_['text_order_status_id']                        = 'Order status';
+$_['text_affiliate_id']                           = 'Affiliate ID';
+$_['text_commission']                             = 'Commission';
+$_['text_language_id']                            = 'Language ID';
+$_['text_currency_id']                            = 'Currency ID';
+$_['text_currency_code']                          = 'Currency code';
+$_['text_currency_value']                         = 'Currency value';
+$_['text_date_added']                             = 'Date added';
+$_['text_date_modified']                          = 'Date modified';
+$_['text_ip']                                     = 'IP address';
+$_['text_sku']                                    = 'SKU';
+$_['text_product']                                = 'Products';
+$_['text_checked']                                = 'Check';
+$_['text_check_main_data']                        = 'Main data';
+$_['text_check_all']                              = 'All data';
+$_['text_check_none']                             = 'None';
+$_['text_select_language']                        = 'Select language';
+$_['text_check_all_important_data']               = 'All important data';
+$_['text_success']                                = 'XLS successfully created';
+$_['text_error_warning']                          = 'Please select the data for export';
+$_['text_export_date']                            = 'Export date';
+$_['text_to']                                     = 'to';
+$_['text_product_sku']                            = 'Product SKU';
+$_['text_order_product']                          = 'Order products';
+$_['text_product_to_separated_line']              = 'Each product to separate row';
+$_['text_yes']                                    = 'Yes';
+$_['text_no']                                     = 'No';
+$_['text_product_id']                             = 'Product ID';
+$_['text_product_name']                           = 'Product name';
+$_['text_product_model']                          = 'Product model';
+$_['text_product_price']                          = 'Product price';
+$_['text_product_total_price']                    = 'Product total price';
+$_['text_product_quantity']                       = 'Product quantity';
+$_['text_product_option']                         = 'Product option';
+$_['text_another_setting']                        = 'Another setting';
+$_['text_price_with_symbol']                      = 'Price with currency symbol';
+$_['text_cancel']                                 = 'Cancel';
+
+
+
+?>

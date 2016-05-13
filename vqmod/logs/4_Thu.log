@@ -1,0 +1,66 @@
+---------- Date: 2016-03-03 18:34:17 ~ IP : 106.216.157.184 ----------
+REQUEST URI : /admin/index.php?route=common/dashboard&token=zr17QCnp1Qvta7dFiaGRaUfXisBiCsAV
+MOD DETAILS:
+   modFile   : D:\INETPUB\VHOSTS\dsourz.com\httpdocs\vqmod/xml/irsfree_export_excel_bulk.xml
+   id        : Export Excel Data Bulk 
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+VQModObject::parseMods - Could not resolve path for [admin/language/english/default.php] (SKIPPED)
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-03-03 18:36:04 ~ IP : 106.216.157.184 ----------
+REQUEST URI : /admin/index.php?route=catalog/product&token=zr17QCnp1Qvta7dFiaGRaUfXisBiCsAV
+MOD DETAILS:
+   modFile   : D:\INETPUB\VHOSTS\dsourz.com\httpdocs\vqmod/xml/irsfree_export_excel_bulk.xml
+   id        : Export Excel Data Bulk 
+   version   : 2.0
+   vqmver    : 2.4.1
+   author    : IRSSOFT
+
+File Name    : admin/view/template/catalog/product_list.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <div class="pull-right"><a href="<?php echo $add; ?>" data-toggle="tooltip" title="<?php echo $button_add; ?>" class="btn btn-primary"><i class="fa fa-plus"></i></a>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-03-03 21:51:39 ~ IP : 106.216.157.184 ----------
+REQUEST URI : /strontium-64gb-nitro-plus-otg-3-0-usb
+MOD DETAILS:
+   modFile   : D:\INETPUB\VHOSTS\dsourz.com\httpdocs\vqmod/xml/quantity_selector.xml
+   id        : Quantity Selector Plus Minus
+   version   : 1.0.1
+   vqmver    : 1.0.8
+   author    : Rahul
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <?php echo $text_qty; ?>
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <input type="button" value="<?php echo $button_cart; ?>" id="button-cart" class="button" />
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-03-03 21:53:58 ~ IP : 106.216.157.184 ----------
+REQUEST URI : /strontium-64gb-nitro-plus-otg-3-0-usb
+MOD DETAILS:
+   modFile   : D:\INETPUB\VHOSTS\dsourz.com\httpdocs\vqmod/xml/vqmod_product_plus_minus.xml
+   id        : product plus minus
+   version   : 0.3
+   vqmver    : 2.2.1
+   author    : booger
+
+File Name    : catalog/view/theme/*/template/common/footer.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <div id="footer">
+
+File Name    : catalog/view/theme/*/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (SKIPPED): <input type="text" name="quantity" size="2" value="<?php echo $minimum; ?>" />
+
+----------------------------------------------------------------------
+
+

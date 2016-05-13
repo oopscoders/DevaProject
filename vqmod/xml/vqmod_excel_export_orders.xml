@@ -1,0 +1,29 @@
+<modification>
+	<id>Profi Excel Export [ORDERS]</id>
+	<version>1.5.x</version>
+	<vqmver>2.x</vqmver>
+	<author>DEAWid [www.deawid.com]</author>
+
+	<file name="admin/controller/common/menu.php">
+		<operation>
+			<search position="after"><![CDATA[$data['openbay_link_amazonus_links'] = $this->url->link('openbay/amazonus/itemlinks', 'token=' . $this->session->data['token'], 'SSL');]]></search>
+			<add><![CDATA[
+        //excel export - start
+      		$this->load->language('tool/excel_export_orders');
+      		$data['text_excel_export_orders'] = $this->language->get('heading_title');
+      		$token = "";
+      		if(isset($this->session->data['token'])){$token = 'token=' . $this->session->data['token'];}
+      		$data['excel_export_orders'] = $this->url->link('tool/excel_export_orders', $token, 'SSL');
+      	//excel export - end
+      ]]></add>
+		</operation>
+	</file>
+
+	<file name="admin/view/template/common/menu.tpl">
+		<operation>
+			<search position="after"><![CDATA[<li><a href="<?php echo $feed; ?>"><?php echo $text_feed; ?></a></li>]]></search>
+			<add><![CDATA[<li><a href="<?php echo $excel_export_orders; ?>"><?php echo $text_excel_export_orders; ?></a></li>]]></add>
+		</operation>
+	</file>
+
+</modification>

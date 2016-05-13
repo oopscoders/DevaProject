@@ -1,0 +1,15 @@
+<modification>
+	<name>OCMOD installer upload fix</name>
+	<version>1.0</version>
+	<author>-vito-</author>
+	<link>opencartmodding.com</link>
+	<code>ocm_installer_upload_fix</code>
+	<file path="admin/controller/extension/installer.php">
+		<operation info="Set ftp connection to passive mode">
+			<search><![CDATA[if ($root) {]]></search>
+			<add position="before"><![CDATA[					// Set passive mode
+					ftp_pasv($connection, true);
+]]></add>
+		</operation>
+	</file>
+</modification>
